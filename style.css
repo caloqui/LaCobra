@@ -1,0 +1,901 @@
+/*MÓVILES*/
+@media (max-width:768px) {
+    /*PORTADA*/
+    #topbar {
+        background-color:black;
+        /*background-image: url('img/f1.jpg');
+        background-size:cover;*/
+        /*box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color] [inset];*/
+        box-shadow: 0px 0px 50px 50px black;
+        margin-bottom:70px;
+        margin-top:20px;
+    }
+
+    #centrar {
+        display: flex;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    #title {
+        text-decoration:none;
+        font-weight:bold;
+        color:white;
+        font-size:15px;
+        margin-right:auto;
+        margin-left:20px;
+    }
+
+    #menu {
+        font-size:5px;
+        margin-top:10px;
+    }
+
+    #menu a {
+        text-decoration:none;
+        font-weight:bold;
+        color:white;
+        margin-right:10px;
+    }
+
+    #menu a:active {
+        color:#4f9a15;
+    }
+
+    #Pacu {
+        color:white;
+        font-size:20px;
+        font-weight: bold;
+        display:flex;
+        justify-content:center;
+    }
+
+    #Desde {
+        color:white;
+        font-size:12px;
+        display:flex;
+        justify-content:center;
+        margin-bottom:100px;
+    }
+
+    .sectitle {
+        display:flex;
+        justify-content:center;
+        font-weight:bold;
+        font-size:20px;
+        margin-bottom:30px;
+    }
+
+    .sectitlew {
+        display:flex;
+        justify-content:center;
+        font-weight:bold;
+        font-size:20px;
+        margin-bottom:30px;
+        color:white;
+    }
+
+    /*INICIO*/
+    #inicio {
+        margin-bottom:150px;
+        text-align:justify;
+        margin-left:50px;
+        margin-right:50px;
+        font-size:12px;
+    }
+
+    /*NOTÍCIAS*/
+    #noticias {
+        margin-bottom:150px;
+        background-color:black;
+        box-shadow: 0px 0px 50px 100px black;
+    }
+
+    .ntitle {
+        color:white;
+        display:flex;
+        justify-content:center;
+        box-shadow:0px 5px 1px -5px white;
+        margin-left:50px;
+        margin-right:50px;
+        font-size:15px;
+        font-weight:bold;
+    }
+
+    .not {
+        text-align:justify;
+        margin-left:50px;
+        margin-right:50px;
+        font-size:12px;
+        color:white;
+    }
+
+    #con {
+        color:white;
+        display:flex;
+        justify-content:center;
+        font-size:14px;
+        text-decoration:none;
+    }
+
+    /*INTEGRANTES*/
+    #integrantes {
+        margin-bottom:150px;
+    }
+
+    /*imparell*/
+    .useri {
+        display:flex;
+        justify-content:center;
+        margin-bottom:50px;
+    }
+
+    .userimgi {
+        height:55px;
+        width:55px;
+    }
+
+    .usertxti {
+        margin-left:70px;
+        font-size:10px;
+    }
+
+    .usernamei {
+        font-size:12px;
+    }
+
+    /*parell*/
+    .userp {
+        display:flex;
+        justify-content:center;
+        margin-bottom:50px;
+    }
+
+    .userimgp {
+        height:55px;
+        width:55px;
+    }
+
+    .usertxtp {
+        margin-right:70px;
+        font-size:10px;
+    }
+
+    .usernamep {
+        font-size:12px;
+    }
+
+    /*TROFEOS*/
+    #trofeos {
+        background-color:black;
+        box-shadow: 0px 0px 50px 100px black;
+        margin-bottom:150px;
+    }
+
+    .table {
+        display:grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    .item {
+        box-shadow: 0px 0px 0px 1px #4f9a15;
+        margin:6px;
+        border-radius:20px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .item:active {
+        box-shadow: 0px 0px 2px 5px #4f9a15;
+    }
+
+    .itemtitle {
+        font-size:10px;
+        font-weight:bold;
+        color:white;
+    }
+
+    .itemtxt {
+        font-size:8px;
+        color:white;
+    }
+
+    .itempar {
+        font-size:6px;
+        color:white;
+    }
+
+    #comming {
+        width:80%;
+        height:auto;
+        margin-left:10px;
+    }
+
+    /*FOTOS*/
+    #fotos {
+        margin-bottom:150px;
+    }
+
+    .table3 {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:3px;
+    }
+
+    .photo {
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding:8px;
+    }
+
+    .photo img {
+        max-width:100%;
+        max-height:100%;
+    }
+
+    /*CONTACTO*/
+    #contacto {
+        background-color:black;
+        box-shadow: 0px 0px 50px 100px black;
+        margin-bottom:50px;
+    }
+
+    form {
+        max-width:280px;
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        margin:auto;
+    }
+
+    .feedback-input {
+        color: white;
+        font-size:12px;
+        border-radius:8px;
+        line-height:22px;
+        background-color:transparent;
+        border:1px solid #4f9a15;
+        padding:8px;
+        margin-bottom:10px;
+    }
+
+    .feedback-input:focus {
+        border: 3px solid transparent;
+    }
+
+    textarea {
+        height:100px;
+        resize:vertical;
+    }
+
+    [type="submit"] {
+        background-color:#4f9a15;
+        color:black;
+        border-radius:8px;
+        font-size:20px;
+        font-weight:bold;
+        border:0px solid transparent;
+    }
+
+    [type="submit"]:active {
+        background-color:black;
+        color:#4f9a15;
+        border-radius:8px;
+        font-size:20px;
+        font-weight:bold;
+        border:0px solid transparent;
+    }
+
+    #socialmedia {
+        text-align:center;
+    }
+
+    #socialmedia img {
+        width:15%;
+        height:auto;
+        text-align:center;
+    }
+}
+/*MÓVILES HORIZONTAL*/
+@media(min-width:768px) and (max-width:820px) {
+    /*PORTADA*/
+    #topbar {
+        background-color:black;
+        /*background-image: url('img/f1.jpg');
+        background-size:cover;*/
+        /*box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color] [inset];*/
+        box-shadow: 0px 0px 50px 50px black;
+        margin-bottom:70px;
+        margin-top:20px;
+    }
+
+    #centrar {
+        display: flex;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    #title {
+        text-decoration:none;
+        font-weight:bold;
+        color:white;
+        font-size:25px;
+        margin-right:auto;
+        margin-left:20px;
+    }
+
+    #menu {
+        font-size:12px;
+        margin-top:10px;
+    }
+
+    #menu a {
+        text-decoration:none;
+        font-weight:bold;
+        color:white;
+        margin-right:10px;
+    }
+
+    #menu a:active {
+        color:#4f9a15;
+    }
+
+    #Pacu {
+        color:white;
+        font-size:25px;
+        font-weight: bold;
+        display:flex;
+        justify-content:center;
+    }
+
+    #Desde {
+        color:white;
+        font-size:12px;
+        display:flex;
+        justify-content:center;
+        margin-bottom:100px;
+    }
+
+    .sectitle {
+        display:flex;
+        justify-content:center;
+        font-weight:bold;
+        font-size:22px;
+        margin-bottom:30px;
+    }
+
+    .sectitlew {
+        display:flex;
+        justify-content:center;
+        font-weight:bold;
+        font-size:22px;
+        margin-bottom:30px;
+        color:white;
+    }
+
+    /*INICIO*/
+    #inicio {
+        margin-bottom:150px;
+        text-align:justify;
+        margin-left:90px;
+        margin-right:90px;
+        font-size:12px;
+    }
+
+    /*NOTÍCIAS*/
+    #noticias {
+        margin-bottom:150px;
+        background-color:black;
+        box-shadow: 0px 0px 50px 100px black;
+    }
+
+    .ntitle {
+        color:white;
+        display:flex;
+        justify-content:center;
+        box-shadow:0px 5px 1px -5px white;
+        margin-left:90px;
+        margin-right:90px;
+        font-size:18px;
+        font-weight:bold;
+    }
+
+    .not {
+        text-align:justify;
+        margin-left:90px;
+        margin-right:90px;
+        font-size:12px;
+        color:white;
+    }
+
+    #con {
+        color:white;
+        display:flex;
+        justify-content:center;
+        font-size:16px;
+        text-decoration:none;
+    }
+
+    /*INTEGRANTES*/
+    #integrantes {
+        margin-bottom:150px;
+    }
+
+    /*imparell*/
+    .useri {
+        display:flex;
+        justify-content:center;
+        margin-bottom:50px;
+    }
+
+    .userimgi {
+        height:60px;
+        width:60px;
+    }
+
+    .usertxti {
+        margin-left:90px;
+        font-size:10px;
+    }
+
+    .usernamei {
+        font-size:12px;
+    }
+
+    /*parell*/
+    .userp {
+        display:flex;
+        justify-content:center;
+        margin-bottom:50px;
+    }
+
+    .userimgp {
+        height:60px;
+        width:60px;
+    }
+
+    .usertxtp {
+        margin-right:90px;
+        font-size:10px;
+    }
+
+    .usernamep {
+        font-size:12px;
+    }
+
+    /*TROFEOS*/
+    #trofeos {
+        background-color:black;
+        box-shadow: 0px 0px 50px 100px black;
+        margin-bottom:150px;
+    }
+
+    .table {
+        display:grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    .item {
+        box-shadow: 0px 0px 0px 1px #4f9a15;
+        margin:8px;
+        border-radius:20px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .item:active {
+        box-shadow: 0px 0px 2px 5px #4f9a15;
+    }
+
+    .itemtitle {
+        font-size:14px;
+        font-weight:bold;
+        color:white;
+    }
+
+    .itemtxt {
+        font-size:10px;
+        color:white;
+    }
+
+    .itempar {
+        font-size:8px;
+        color:white;
+    }
+
+    #comming {
+        width:50%;
+        height:auto;
+        margin-left:50px;
+    }
+
+    /*FOTOS*/
+    #fotos {
+        margin-bottom:150px;
+    }
+
+    .table3 {
+        display:grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap:3px;
+    }
+
+    .photo {
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding:8px;
+    }
+
+    .photo img {
+        max-width:100%;
+        max-height:100%;
+    }
+
+    /*CONTACTO*/
+    #contacto {
+        background-color:black;
+        box-shadow: 0px 0px 50px 100px black;
+        margin-bottom:50px;
+    }
+
+    form {
+        max-width:280px;
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        margin:auto;
+    }
+
+    .feedback-input {
+        color: white;
+        font-size:12px;
+        border-radius:8px;
+        line-height:22px;
+        background-color:transparent;
+        border:1px solid #4f9a15;
+        padding:8px;
+        margin-bottom:10px;
+    }
+
+    .feedback-input:focus {
+        border: 3px solid transparent;
+    }
+
+    textarea {
+        height:100px;
+        resize:vertical;
+    }
+
+    [type="submit"] {
+        background-color:#4f9a15;
+        color:black;
+        border-radius:8px;
+        font-size:20px;
+        font-weight:bold;
+        border:0px solid transparent;
+    }
+
+    [type="submit"]:active {
+        background-color:black;
+        color:#4f9a15;
+        border-radius:8px;
+        font-size:20px;
+        font-weight:bold;
+        border:0px solid transparent;
+    }
+
+    #socialmedia {
+        text-align:center;
+    }
+
+    #socialmedia img {
+        width:10%;
+        height:auto;
+        text-align:center;
+    }
+}
+/*--------------------------------------------------*/
+/*PORTÁTILES*/
+@media (min-width:820px) {
+    /*PORTADA*/
+    #topbar {
+        background-image: url('img/f1.jpg');
+        background-size:cover;
+        /*box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color] [inset];*/
+        box-shadow: 0px 0px 50px 50px black;
+        margin-bottom:200px;
+        margin-top:20px;
+
+    }
+
+    #centrar {
+        display: flex;
+        align-items: center;
+        margin-bottom: 200px;
+    }
+
+    #title {
+        text-decoration:none;
+        font-weight:bold;
+        color:white;
+        font-size:60px;
+        margin-right:auto;
+        margin-left:20px;
+    }
+
+    #menu {
+        font-size:20px;
+        margin-top:40px;
+    }
+
+    #menu a {
+        text-decoration:none;
+        font-weight:bold;
+        color:white;
+        margin-right:30px;
+    }
+
+    #menu a:hover {
+        color:#4f9a15;
+    }
+
+    #Pacu {
+        color:white;
+        font-size:40px;
+        font-weight: bold;
+        display:flex;
+        justify-content:center;
+    }
+
+    #Desde {
+        color:white;
+        font-size:25px;
+        display:flex;
+        justify-content:center;
+        margin-bottom:600px;
+    }
+
+    .sectitle {
+        display:flex;
+        justify-content:center;
+        font-weight:bold;
+        font-size:50px;
+        margin-bottom:50px;
+    }
+
+    .sectitlew {
+        display:flex;
+        justify-content:center;
+        font-weight:bold;
+        font-size:60px;
+        margin-bottom:50px;
+        color:white;
+    }
+
+    /*INICIO*/
+    #inicio {
+        margin-bottom:300px;
+        text-align:justify;
+        margin-left:300px;
+        margin-right:300px;
+        font-size:22px;
+    }
+
+    /*NOTÍCIAS*/
+    #noticias {
+        margin-bottom:300px;
+        background-color:black;
+        box-shadow: 0px 0px 50px 100px black;
+    }
+
+    .ntitle {
+        color:white;
+        display:flex;
+        justify-content:center;
+        box-shadow:0px 5px 2px -5px white;
+        margin-left:500px;
+        margin-right:500px;
+        font-size:40px;
+        font-weight:bold;
+    }
+
+    .not {
+        text-align:justify;
+        margin-left:500px;
+        margin-right:500px;
+        font-size:20px;
+        color:white;
+    }
+
+    #con {
+        color:white;
+        display:flex;
+        justify-content:center;
+        font-size:30px;
+        text-decoration:none;
+    }
+
+    /*INTEGRANTES*/
+    #integrantes {
+        margin-bottom:300px;
+    }
+
+    /*imparell*/
+    .useri {
+        display:flex;
+        justify-content:center;
+        margin-bottom:40px;
+    }
+
+    .userimgi {
+        height:120px;
+        width:120px;
+    }
+
+    .usertxti {
+        margin-left:300px;
+    }
+
+    .usernamei {
+        font-size:25px;
+    }
+
+    /*parell*/
+    .userp {
+        display:flex;
+        justify-content:center;
+        margin-bottom:40px;
+    }
+
+    .userimgp {
+        height:120px;
+        width:120px;
+    }
+
+    .usertxtp {
+        margin-right:300px;
+    }
+
+    .usernamep {
+        font-size:25px;
+    }
+
+    /*TROFEOS*/
+    #trofeos {
+        background-color:black;
+        box-shadow: 0px 0px 50px 100px black;
+        margin-bottom:300px;
+    }
+
+    .table {
+        display:grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    .item {
+        box-shadow: 0px 0px 0px 4px #4f9a15;
+        margin:30px;
+        border-radius:20px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .item:hover {
+        box-shadow: 0px 0px 7px 10px #4f9a15;
+    }
+
+    .itemtitle {
+        font-size:40px;
+        color:white;
+    }
+
+    .itemtxt {
+        font-size:20px;
+        color:white;
+    }
+
+    .itempar {
+        font-size:15px;
+        color:white;
+    }
+
+    #comming {
+        width:60%;
+        height:auto;
+        margin-left:100px;
+    }
+
+    /*FOTOS*/
+    #fotos {
+        margin-bottom:300px;
+    }
+
+    .table3 {
+        display:grid;
+        grid-template-columns: repeat(10, 1fr);
+        gap:10px;
+    }
+
+    .photo {
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding:10px;
+    }
+
+    .photo img {
+        max-width:100%;
+        max-height:100%;
+    }
+
+    /*CONTACTO*/
+    #contacto {
+        background-color:black;
+        box-shadow: 0px 0px 50px 100px black;
+        margin-bottom:50px;
+    }
+
+    form {
+        max-width:420px;
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        margin:auto;
+    }
+
+    .feedback-input {
+        color: white;
+        font-size:20px;
+        border-radius:8px;
+        line-height:22px;
+        background-color:transparent;
+        border:2px solid #4f9a15;
+        padding:10px;
+        margin-bottom:15px;
+    }
+
+    .feedback-input:focus {
+        border: 3px solid transparent;
+    }
+
+    textarea {
+        height:150px;
+        resize:vertical;
+    }
+
+    [type="submit"] {
+        background-color:#4f9a15;
+        color:black;
+        border-radius:8px;
+        font-size:25px;
+        font-weight:bold;
+        border:0px solid transparent;
+    }
+
+    [type="submit"]:hover {
+        background-color:black;
+        color:#4f9a15;
+        border-radius:8px;
+        font-size:25px;
+        font-weight:bold;
+        border:0px solid transparent;
+    }
+
+    #socialmedia {
+        text-align:center;
+    }
+
+    #socialmedia img {
+        width:5%;
+        height:auto;
+        text-align:center;
+    }
+}
