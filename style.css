@@ -27,7 +27,7 @@
     }
 
     #menu {
-        font-size:5px;
+        font-size:7px;
         margin-top:10px;
     }
 
@@ -35,7 +35,7 @@
         text-decoration:none;
         font-weight:bold;
         color:white;
-        margin-right:10px;
+        margin-right:4px;
     }
 
     #menu a:active {
@@ -174,7 +174,7 @@
 
     .table {
         display:grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 50% 50%;
     }
 
     .item {
@@ -192,18 +192,18 @@
     }
 
     .itemtitle {
-        font-size:10px;
+        font-size:12px;
         font-weight:bold;
         color:white;
     }
 
     .itemtxt {
-        font-size:8px;
+        font-size:10px;
         color:white;
     }
 
     .itempar {
-        font-size:6px;
+        font-size:7px;
         color:white;
     }
 
