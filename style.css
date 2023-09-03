@@ -26,6 +26,24 @@
         margin-left:20px;
     }
 
+    .dropdown-button {
+        display:block;
+        background-color: #4f9a15;
+        color:black;
+        border-radius:8px;
+        font-size:15px;
+        font-weight:bold;
+        border: 0px solid transparent;
+    }
+    
+    .dropdown-content {
+        display:none;
+    }
+
+    .show {
+        display:block;
+    }
+
     #menu {
         font-size:7px;
         margin-top:10px;
@@ -123,6 +141,25 @@
         margin-bottom:150px;
     }
 
+    .dropdown-butint {
+        display:block;
+        text-align:center;
+        background-color:#4f9a15;
+        color:white;
+        border-radius:8px;
+        font-size:15px;
+        font-weight:bold;
+        border: 0px solid transparent;
+    }
+    
+    .dropdown-int {
+        display:none;
+    }
+
+    .showint {
+        display:block;
+    }
+
     /*imparell*/
     .useri {
         display:flex;
@@ -210,7 +247,7 @@
     #comming {
         width:80%;
         height:auto;
-        margin-left:10px;
+        margin-left:20px;
     }
 
     /*FOTOS*/
@@ -218,7 +255,32 @@
         margin-bottom:150px;
     }
 
+    .dropdown-buttonfot {
+        display:block;
+        text-align:center;
+        background-color:#4f9a15;
+        color:white;
+        border-radius:8px;
+        font-size:15px;
+        font-weight:bold;
+        border: 0px solid transparent;
+    }
+
+    .dropdown-contentfot {
+        display:none;
+    }
+
+    .showfot {
+        display:block;
+    }
+
     .table3 {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:3px;
+    }
+
+    .table4 {
         display:grid;
         grid-template-columns: repeat(3, 1fr);
         gap:3px;
@@ -341,6 +403,10 @@
 
     #menu a:active {
         color:#4f9a15;
+    }
+
+    .dropdown-button {
+        display:none;
     }
 
     #Pacu {
@@ -605,12 +671,13 @@
 @media (min-width:820px) {
     /*PORTADA*/
     #topbar {
-        background-image: url('img/f1.jpg');
-        background-size:cover;
+        /*background-image: url('img/f1.jpg');
+        background-size:cover;*/
         /*box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color] [inset];*/
         box-shadow: 0px 0px 50px 50px black;
         margin-bottom:200px;
         margin-top:20px;
+        background-color: black;
 
     }
 
@@ -645,6 +712,10 @@
         color:#4f9a15;
     }
 
+    .dropdown-button {
+        display:none;
+    }
+
     #Pacu {
         color:white;
         font-size:40px;
@@ -658,7 +729,7 @@
         font-size:25px;
         display:flex;
         justify-content:center;
-        margin-bottom:600px;
+        margin-bottom:300px;
     }
 
     .sectitle {
