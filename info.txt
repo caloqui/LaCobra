@@ -1,0 +1,5 @@
+Actualizar repositorio:
+
+git add .
+git commit -m "Mensaje de commit descriptivo"
+git push origin nombre_de_tu_rama(main)

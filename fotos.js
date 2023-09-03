@@ -5,7 +5,7 @@ let fotosAbierto = false;
 
 dropdownButtonfot.addEventListener("click", function () {
   if (fotosAbierto) {
-    dropdownContent.classList.remove("showfot");
+    dropdownContentfot.classList.remove("showfot");
     dropdownButtonfot.textContent = "Mostrar más";
   }
   else {
