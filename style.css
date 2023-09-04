@@ -12,8 +12,8 @@
     }
 
     #centrar {
-        display: flex;
         margin-bottom: 100px;
+        display:flex;
     }
 
     #title {
@@ -40,19 +40,21 @@
 
     .show {
         display:flex;
+        flex-direction:column;
     }
 
     #menu {
+        display:flex;
         flex-direction:column;
-        font-size:7px;
-        margin-top:10px;
+        font-size:10px;
+        margin-top:7px;
     }
 
     #menu a {
         text-decoration:none;
         font-weight:bold;
         color:white;
-        margin-right:4px;
+        margin-top:10px;
     }
 
     #menu a:active {
@@ -466,7 +468,7 @@
         color:white;
         display:flex;
         justify-content:center;
-        box-shadow:0px 5px 1px -5px white;
+        box-shadow:0px 5px 1px -5px #4f9a15;
         margin-left:90px;
         margin-right:90px;
         font-size:18px;
@@ -482,7 +484,7 @@
     }
 
     #con {
-        color:white;
+        color:#4f9a15;
         display:flex;
         justify-content:center;
         font-size:16px;
@@ -492,6 +494,27 @@
     /*INTEGRANTES*/
     #integrantes {
         margin-bottom:150px;
+    }
+
+    .dropdown-butint {
+        display:flex;
+        text-align:center;
+        background-color:#4f9a15;
+        color:white;
+        border-radius:8px;
+        font-size:15px;
+        font-weight:bold;
+        border: 0px solid transparent;
+        margin-bottom:50px;
+        margin-left:340px;
+    }
+    
+    .dropdown-int {
+        display:none;
+    }
+
+    .showint {
+        display:block;
     }
 
     /*imparell*/
@@ -589,7 +612,35 @@
         margin-bottom:150px;
     }
 
+    .dropdown-buttonfot {
+        display:flex;
+        align-items:center;
+        background-color:#4f9a15;
+        color:white;
+        border-radius:8px;
+        font-size:15px;
+        font-weight:bold;
+        border: 0px solid transparent;
+        margin-bottom:15px;
+        margin-top:15px;
+        margin-left:340px;
+    }
+
+    .dropdown-contentfot {
+        display:none;
+    }
+
+    .showfot {
+        display:block;
+    }
+
     .table3 {
+        display:grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap:3px;
+    }
+
+    .table4 {
         display:grid;
         grid-template-columns: repeat(5, 1fr);
         gap:3px;
@@ -773,7 +824,7 @@
         color:white;
         display:flex;
         justify-content:center;
-        box-shadow:0px 5px 2px -5px white;
+        box-shadow:0px 5px 2px -5px #4f9a15;
         margin-left:500px;
         margin-right:500px;
         font-size:40px;
@@ -789,7 +840,7 @@
     }
 
     #con {
-        color:white;
+        color:#4f9a15;
         display:flex;
         justify-content:center;
         font-size:30px;
@@ -799,6 +850,27 @@
     /*INTEGRANTES*/
     #integrantes {
         margin-bottom:300px;
+    }
+
+    .dropdown-butint {
+        display:flex;
+        text-align:center;
+        background-color:#4f9a15;
+        color:white;
+        border-radius:8px;
+        font-size:22px;
+        font-weight:bold;
+        border: 0px solid transparent;
+        margin-bottom:50px;
+        margin-left:850px;
+    }
+    
+    .dropdown-int {
+        display:none;
+    }
+
+    .showint {
+        display:block;
     }
 
     /*imparell*/
@@ -893,10 +965,38 @@
         margin-bottom:300px;
     }
 
+    .dropdown-buttonfot {
+        display:flex;
+        align-items:center;
+        background-color:#4f9a15;
+        color:white;
+        border-radius:8px;
+        font-size:22px;
+        font-weight:bold;
+        border: 0px solid transparent;
+        margin-bottom:15px;
+        margin-top:15px;
+        margin-left:850px;
+    }
+
+    .dropdown-contentfot {
+        display:none;
+    }
+
+    .showfot {
+        display:block;
+    }
+
     .table3 {
         display:grid;
         grid-template-columns: repeat(10, 1fr);
         gap:10px;
+    }
+
+    .table4 {
+        display:grid;
+        grid-template-columns: repeat(10, 1fr);
+        gap:3px;
     }
 
     .photo {
