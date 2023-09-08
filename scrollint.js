@@ -9,6 +9,7 @@ function mostrarElementos() {
     if (elementoPos < screenHeight) {
       elemento.classList.add('mostrar-integrante-i');
     }
+    else elemento.classList.remove('mostrar-integrante-i');
   });
 
   elementosDerecha.forEach((elemento) => {
@@ -18,6 +19,7 @@ function mostrarElementos() {
     if (elementoPos < screenHeight) {
       elemento.classList.add('mostrar-integrante-p');
     }
+    else elemento.classList.remove('mostrar-integrante-p');
   });
 }
 

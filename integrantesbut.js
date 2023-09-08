@@ -7,7 +7,7 @@ dropdownButtonint.addEventListener("click", function () {
   console.log("Haciendo clic en el botón");
   if (integrantesAbierto) {
     dropdownContentint.classList.remove("showint");
-    dropdownButtonint.textContent = "Mostrar más";
+    dropdownButtonint.textContent = "Mostrar todos";
   }
   else {
     dropdownContentint.classList.add("showint");
