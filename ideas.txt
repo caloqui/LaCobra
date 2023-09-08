@@ -1,3 +1,23 @@
 Añadir apartado de invitados de honor de la peña.
 Añadir opiniones de nuestros invitados.
 Añadir subapartado en la parte de galería que se llame "De nuestra elección" con las mejores fotos que tengamos.
+
+Añadir animaciones:
+
+1. **Transiciones de desplazamiento suave**: Como mencioné anteriormente, puedes usar `scroll-behavior: smooth;` para lograr un desplazamiento suave entre las secciones de tu página.
+
+2. **Animación de entrada de elementos**: Puedes aplicar animaciones de entrada cuando elementos como imágenes o texto aparezcan en la pantalla a medida que el usuario se desplaza hacia abajo. Por ejemplo, podrías hacer que las imágenes se deslicen o se desvanecen a medida que entran en la vista.
+
+3. **Botones de menú deslizantes**: Si tienes un menú en tu sitio web, considera hacer que se deslice desde un lado de la pantalla cuando el usuario lo abra y se deslice de vuelta cuando lo cierre.
+
+4. **Botones de expansión/collapse**: Para secciones con contenido oculto, como acordeones, puedes animar la expansión y el colapso del contenido. Esto puede ser especialmente útil en dispositivos móviles para ahorrar espacio en la pantalla.
+
+5. **Efectos de paralaje**: Los efectos de paralaje pueden crear una sensación de profundidad en tu página móvil. Puedes hacer que ciertos elementos se muevan a diferentes velocidades mientras el usuario se desplaza, creando un efecto visual atractivo.
+
+6. **Botones con efectos táctiles**: Puedes agregar efectos visuales atractivos a los botones, como cambios de color, sombras o crecimiento sutil, cuando se tocan o se mantienen presionados en dispositivos táctiles.
+
+7. **Animación de carga de la página**: Agregar una animación de carga inicial puede hacer que la espera sea menos aburrida para los usuarios. Esto puede ser tan simple como un ícono giratorio o una pantalla de carga con animaciones interesantes.
+
+8. **Efectos de fondo**: Los fondos animados, como gradientes en movimiento o patrones sutiles, pueden agregar un toque de estilo a tu sitio móvil.
+
+Recuerda que las transiciones y animaciones deben usarse con moderación y de manera significativa para mejorar la experiencia del usuario en lugar de distraerlo. Además, asegúrate de que las animaciones no ralenticen demasiado la carga de tu sitio web en dispositivos móviles.
