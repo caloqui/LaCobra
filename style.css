@@ -68,7 +68,7 @@ html {
     }
 
     .dropdown-button:active {
-        transform: scale(0.95);
+        transform: scale(0.8);
     }
     
     .dropdown-content {
@@ -96,7 +96,7 @@ html {
     }
 
     #menu a:active {
-        transform: scale(0.95);
+        transform: scale(0.8);
     }
 
     #Pacu {
@@ -195,7 +195,7 @@ html {
     }
 
     .dropdown-butint:active {
-        transform:scale(0.95);
+        transform:scale(0.8);
     }
     
     .dropdown-int {
@@ -204,14 +204,21 @@ html {
 
     .showint {
         display:block;
-    }
+    }  
 
     /*imparell*/
     .useri {
         display:flex;
         justify-content:center;
         margin-bottom:50px;
+        /* Inicialmente, los elementos están ocultos */
+        transform: translateX(-100%); /* Empiezan fuera del lado izquierdo */
+        transition: transform 3s ease; /* Transiciones suaves */
     }
+
+    .mostrar-integrante-i {
+        transform: translateX(0);
+    }  
 
     .userimgi {
         height:55px;
@@ -232,6 +239,13 @@ html {
         display:flex;
         justify-content:center;
         margin-bottom:50px;
+        /* Inicialmente, los elementos están ocultos */
+        transform: translateX(100%); /* Empiezan fuera del lado izquierdo */
+        transition: transform 3s ease; /* Transiciones suaves */
+    }
+
+    .mostrar-integrante-p {
+        transform: translateX(0);
     }
 
     .userimgp {
@@ -317,7 +331,7 @@ html {
     }
 
     .dropdown-buttonfot:active {
-        transform:scale(0.95);
+        transform:scale(0.8);
     }
 
     .dropdown-contentfot {
@@ -457,7 +471,7 @@ html {
     }
 
     #menu a:active {
-        transform:scale(0.95);
+        transform:scale(0.8);
     }
 
     .dropdown-button {
@@ -560,7 +574,7 @@ html {
     }
 
     .dropdown-butint:active {
-        transform:scale(0.95);
+        transform:scale(0.8);
     }
     
     .dropdown-int {
@@ -576,6 +590,13 @@ html {
         display:flex;
         justify-content:center;
         margin-bottom:50px;
+        /* Inicialmente, los elementos están ocultos */
+        transform: translateX(-100%); /* Empiezan fuera del lado izquierdo */
+        transition: transform 3s ease; /* Transiciones suaves */
+    }
+
+    .mostrar-integrante-i {
+        transform: translateX(0);
     }
 
     .userimgi {
@@ -597,6 +618,13 @@ html {
         display:flex;
         justify-content:center;
         margin-bottom:50px;
+        /* Inicialmente, los elementos están ocultos */
+        transform: translateX(100%); /* Empiezan fuera del lado izquierdo */
+        transition: transform 3s ease; /* Transiciones suaves */
+    }
+
+    .mostrar-integrante-p {
+        transform: translateX(0);
     }
 
     .userimgp {
@@ -682,7 +710,7 @@ html {
     }
 
     .dropdown-buttonfot:active {
-        transform:scale(0.95);
+        transform:scale(0.8);
     }
 
     .dropdown-contentfot {
@@ -927,7 +955,7 @@ html {
     }
 
     .dropdown-butint:active {
-        transform:scale(0.95);
+        transform:scale(0.8);
     }
     
     .dropdown-int {
@@ -943,7 +971,14 @@ html {
         display:flex;
         justify-content:center;
         margin-bottom:40px;
+        /* Inicialmente, los elementos están ocultos */
+        transform: translateX(-100%); /* Empiezan fuera del lado izquierdo */
+        transition: transform 3s ease; /* Transiciones suaves */
     }
+
+    .mostrar-integrante-i {
+        transform: translateX(0);
+    }        
 
     .userimgi {
         height:120px;
@@ -963,7 +998,14 @@ html {
         display:flex;
         justify-content:center;
         margin-bottom:40px;
+        /* Inicialmente, los elementos están ocultos */
+        transform: translateX(100%); /* Empiezan fuera del lado izquierdo */
+        transition: transform 3s ease; /* Transiciones suaves */
     }
+
+    .mostrar-integrante-p {
+        transform: translateX(0);
+    }  
 
     .userimgp {
         height:120px;
@@ -1046,7 +1088,7 @@ html {
     }
 
     .dropdown-buttonfot:active {
-        transform:scale(0.95);
+        transform:scale(0.8);
     }
 
     .dropdown-contentfot {
