@@ -34,13 +34,24 @@ html {
 
     /*PORTADA*/
     #topbar {
-        background-color:black;
-        /*background-image: url('img/f1.jpg');
-        background-size:cover;*/
+        animation: snakeScales 30s linear infinite;
+        background-color:#000;;
+        background-image: url('img/esch1.jpg');
+        background-size:220% auto;
+        background-repeat: repeat-x;
         /*box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color] [inset];*/
         box-shadow: 0px 0px 50px 50px black;
         margin-bottom:70px;
         margin-top:20px;
+    }
+
+    @keyframes snakeScales {
+        0% {
+            background-position: 0 0;
+        }
+        100% {
+            background-position: 100% 0;
+        }
     }
 
     #centrar {
@@ -433,13 +444,24 @@ html {
 @media(min-width:768px) and (max-width:820px) {
     /*PORTADA*/
     #topbar {
-        background-color:black;
-        /*background-image: url('img/f1.jpg');
-        background-size:cover;*/
+        animation: snakeScales 10s linear infinite;
+        background-color:#000;;
+        background-image: url('img/esch1.jpg');
+        background-size:110% auto;
+        background-repeat: repeat-x;
         /*box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color] [inset];*/
         box-shadow: 0px 0px 50px 50px black;
         margin-bottom:70px;
         margin-top:20px;
+    }
+
+    @keyframes snakeScales {
+        0% {
+            background-position: 0 0;
+        }
+        100% {
+            background-position: 100% 0;
+        }
     }
 
     #centrar {
@@ -813,14 +835,24 @@ html {
 @media (min-width:820px) {
     /*PORTADA*/
     #topbar {
-        /*background-image: url('img/f1.jpg');
-        background-size:cover;*/
+        animation: snakeScales 30s linear infinite;
+        background-color:#000;;
+        background-image: url('img/esch1.jpg');
+        background-size:58% auto;
+        background-repeat: repeat-x;
         /*box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color] [inset];*/
         box-shadow: 0px 0px 50px 50px black;
         margin-bottom:200px;
         margin-top:20px;
-        background-color: black;
+    }
 
+    @keyframes snakeScales {
+        0% {
+            background-position: 0 0;
+        }
+        100% {
+            background-position: 100% 0;
+        }
     }
 
     #centrar {
@@ -872,7 +904,7 @@ html {
         font-size:25px;
         display:flex;
         justify-content:center;
-        margin-bottom:300px;
+        margin-bottom:200px;
     }
 
     .sectitle {
