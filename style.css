@@ -41,7 +41,7 @@ html {
         background-size:160% auto;
         background-repeat: repeat-x;
         /*box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color] [inset];*/
-        box-shadow: 0px 0px 50px 50px black;
+        box-shadow: 0px 0px 50px 40px black;
         margin-bottom:70px;
         margin-top:20px;
     }
@@ -67,6 +67,7 @@ html {
         font-size:20px;
         margin-right:auto;
         margin-left:20px;
+        margin-top:1px;
     }
 
     .dropdown-button {
@@ -77,6 +78,7 @@ html {
         font-weight:bold;
         border: 0px solid transparent;
         transition: transform 0.2s ease;
+        margin-right:20px;
     }
 
     .dropdown-button:active {
@@ -157,7 +159,7 @@ html {
     #noticias {
         margin-bottom:150px;
         background-color:black;
-        box-shadow: 0px 0px 50px 100px black;
+        box-shadow: 0px 0px 50px 60px black;
     }
 
     .ntitle {
@@ -225,7 +227,7 @@ html {
         margin-bottom:50px;
         /* Inicialmente, los elementos están ocultos */
         transform: translateX(-100%); /* Empiezan fuera del lado izquierdo */
-        transition: transform 3s ease; /* Transiciones suaves */
+        transition: transform 1.5s ease; /* Transiciones suaves */
     }
 
     .mostrar-integrante-i {
@@ -253,7 +255,7 @@ html {
         margin-bottom:50px;
         /* Inicialmente, los elementos están ocultos */
         transform: translateX(100%); /* Empiezan fuera del lado izquierdo */
-        transition: transform 3s ease; /* Transiciones suaves */
+        transition: transform 1.5s ease; /* Transiciones suaves */
     }
 
     .mostrar-integrante-p {
@@ -277,7 +279,7 @@ html {
     /*TROFEOS*/
     #trofeos {
         background-color:black;
-        box-shadow: 0px 0px 50px 100px black;
+        box-shadow: 0px 0px 50px 60px black;
         margin-bottom:150px;
     }
 
@@ -381,7 +383,7 @@ html {
     /*CONTACTO*/
     #contacto {
         background-color:black;
-        box-shadow: 0px 0px 50px 100px black;
+        box-shadow: 0px 0px 50px 60px black;
         margin-bottom:50px;
     }
 
@@ -615,7 +617,7 @@ html {
         margin-bottom:50px;
         /* Inicialmente, los elementos están ocultos */
         transform: translateX(-100%); /* Empiezan fuera del lado izquierdo */
-        transition: transform 3s ease; /* Transiciones suaves */
+        transition: transform 1.5s ease; /* Transiciones suaves */
     }
 
     .mostrar-integrante-i {
@@ -643,7 +645,7 @@ html {
         margin-bottom:50px;
         /* Inicialmente, los elementos están ocultos */
         transform: translateX(100%); /* Empiezan fuera del lado izquierdo */
-        transition: transform 3s ease; /* Transiciones suaves */
+        transition: transform 1.5s ease; /* Transiciones suaves */
     }
 
     .mostrar-integrante-p {
@@ -1006,7 +1008,7 @@ html {
         margin-bottom:40px;
         /* Inicialmente, los elementos están ocultos */
         transform: translateX(-100%); /* Empiezan fuera del lado izquierdo */
-        transition: transform 3s ease; /* Transiciones suaves */
+        transition: transform 1.5s ease; /* Transiciones suaves */
     }
 
     .mostrar-integrante-i {
@@ -1033,7 +1035,7 @@ html {
         margin-bottom:40px;
         /* Inicialmente, los elementos están ocultos */
         transform: translateX(100%); /* Empiezan fuera del lado izquierdo */
-        transition: transform 3s ease; /* Transiciones suaves */
+        transition: transform 1.5s ease; /* Transiciones suaves */
     }
 
     .mostrar-integrante-p {
