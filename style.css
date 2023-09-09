@@ -77,12 +77,7 @@ html {
         font-size:15px;
         font-weight:bold;
         border: 0px solid transparent;
-        transition: transform 0.2s ease;
         margin-right:20px;
-    }
-
-    .dropdown-button:active {
-        transform: scale(0.8);
     }
     
     .dropdown-content {
@@ -205,12 +200,18 @@ html {
         border: 0px solid transparent;
         margin-bottom:50px;
         margin-left:133px;
-        transition: transform 0.2s ease;
+        animation: jumpAnimation 0.5s ease infinite;
+        animation-play-state: paused;
     }
 
-    .dropdown-butint:active {
-        transform:scale(0.8);
-    }
+    @keyframes jumpAnimation {
+        0%, 100% {
+          transform: translateY(0); /* La posición inicial y final es normal */
+        }
+        50% {
+          transform: translateY(-10px); /* Hace un pequeño salto hacia arriba */
+        }
+      }   
     
     .dropdown-int {
         display:none;
@@ -339,14 +340,20 @@ html {
         font-weight:bold;
         border: 0px solid transparent;
         margin-bottom:15px;
-        margin-top:15px;
-        margin-left:128px;
-        transition: transform 0.2s ease;
+        margin-top:30px;
+        margin-left:130px;
+        animation: jumpAnimationf 0.5s ease infinite;
+        animation-play-state: paused;
     }
 
-    .dropdown-buttonfot:active {
-        transform:scale(0.8);
-    }
+    @keyframes jumpAnimationf {
+        0%, 100% {
+          transform: translateY(0); /* La posición inicial y final es normal */
+        }
+        50% {
+          transform: translateY(-10px); /* Hace un pequeño salto hacia arriba */
+        }
+      }
 
     .dropdown-contentfot {
         display:none;
@@ -596,6 +603,17 @@ html {
         margin-bottom:50px;
         margin-left:340px;
         transition: transform 0.2s ease;
+        animation: jumpAnimation 0.5s ease infinite;
+        animation-play-state: paused;
+    }
+
+    @keyframes jumpAnimation {
+        0%, 100% {
+          transform: translateY(0); /* La posición inicial y final es normal */
+        }
+        50% {
+          transform: translateY(-10px); /* Hace un pequeño salto hacia arriba */
+        }
     }
 
     .dropdown-butint:active {
@@ -729,9 +747,20 @@ html {
         font-weight:bold;
         border: 0px solid transparent;
         margin-bottom:15px;
-        margin-top:15px;
-        margin-left:340px;
+        margin-top:30px;
+        margin-left:345px;
         transition: transform 0.2s ease;
+        animation: jumpAnimationf 0.5s ease infinite;
+        animation-play-state: paused;
+    }
+
+    @keyframes jumpAnimationf {
+        0%, 100% {
+          transform: translateY(0); /* La posición inicial y final es normal */
+        }
+        50% {
+          transform: translateY(-10px); /* Hace un pequeño salto hacia arriba */
+        }
     }
 
     .dropdown-buttonfot:active {
@@ -985,8 +1014,19 @@ html {
         font-weight:bold;
         border: 0px solid transparent;
         margin-bottom:50px;
-        margin-left:850px;
+        margin-left:870px;
         transition: transform 0.2s ease;
+        animation: jumpAnimation 0.5s ease infinite;
+        animation-play-state: paused;
+    }
+
+    @keyframes jumpAnimation {
+        0%, 100% {
+          transform: translateY(0); /* La posición inicial y final es normal */
+        }
+        50% {
+          transform: translateY(-10px); /* Hace un pequeño salto hacia arriba */
+        }
     }
 
     .dropdown-butint:active {
@@ -1117,9 +1157,20 @@ html {
         font-weight:bold;
         border: 0px solid transparent;
         margin-bottom:15px;
-        margin-top:15px;
-        margin-left:850px;
+        margin-top:50px;
+        margin-left:870px;
         transition: transform 0.2s ease;
+        animation: jumpAnimationf 0.5s ease infinite;
+        animation-play-state: paused;
+    }
+
+    @keyframes jumpAnimationf {
+        0%, 100% {
+          transform: translateY(0); /* La posición inicial y final es normal */
+        }
+        50% {
+          transform: translateY(-10px); /* Hace un pequeño salto hacia arriba */
+        }
     }
 
     .dropdown-buttonfot:active {
