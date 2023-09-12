@@ -96,6 +96,7 @@ opacity: 1; /* Muestra el contenido con una transición suave */
 
     .nav_icon {
         width: 40px;
+        height: auto;
     }
 
     .nav_links {
@@ -124,6 +125,7 @@ opacity: 1; /* Muestra el contenido con una transición suave */
         text-decoration: none;
         font-size: 1.3rem;
         letter-spacing:2px;
+        position:relative;
     }
 
     .nav_img {
@@ -131,6 +133,7 @@ opacity: 1; /* Muestra el contenido con una transición suave */
         height:auto;
         margin-right: 30px;
     }
+
 
     .sectitle {
         display:flex;
@@ -461,8 +464,8 @@ opacity: 1; /* Muestra el contenido con una transición suave */
 }
 /*MÓVILES HORIZONTAL*/
 @media(min-width:768px) and (max-width:820px) {
+
     /*PORTADA*/
-    
     .hero {
         background-image: 
         linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)),
@@ -850,6 +853,7 @@ opacity: 1; /* Muestra el contenido con una transición suave */
 /*--------------------------------------------------*/
 /*PORTÁTILES*/
 @media (min-width:820px) {
+    
     /*PORTADA*/
     .hero {
         background-image: 
