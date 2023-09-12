@@ -1,0 +1,129 @@
+ <div class="loader"></div>
+        <div id="topbar">
+            <div id="centrar"> 
+                <a href="index.html" id="title">La Cobra</a>
+                <div id="menu">
+                    <button class="dropdown-button">Menú</button>
+                    <div class="dropdown-content">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#noticias">Notícias</a>
+                        <a href="#integrantes">Integrantes</a>
+                        <a href="#trofeos">Trofeos</a>
+                        <a href="#fotos">Galería</a>
+                        <a href="#contacto">Contacto</a>
+                    </div>
+                </div>
+            </div>
+            <h2 id="Pacu">Obon Pa Cutio</h2>
+            <h2 id="Desde">Desde 2014</h2>
+            <h2>.</h2>
+        </div>
+
+        /*PORTADA*/
+        #topbar {
+            animation: snakeScales 30s linear infinite;
+            background-color:#000;;
+            background-image: url('img/esch1.jpg');
+            background-size:160% auto;
+            background-repeat: repeat-x;
+            /*box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color] [inset];*/
+            box-shadow: 0px 0px 50px 45px black;
+            margin-bottom:70px;
+            margin-top:20px;
+        }
+    
+        @keyframes snakeScales {
+            0% {
+                background-position: 0 0;
+            }
+            100% {
+                background-position: 100% 0;
+            }
+        }
+    
+        #centrar {
+            margin-bottom: 50px;
+            display:flex;
+        }
+    
+        #title {
+            text-decoration:none;
+            font-weight:bold;
+            color:white;
+            font-size:20px;
+            margin-right:auto;
+            margin-left:20px;
+            margin-top:1px;
+        }
+    
+        .dropdown-button {
+            background-color: #4f9a15;
+            color:black;
+            border-radius:8px;
+            font-size:15px;
+            font-weight:bold;
+            border: 0px solid transparent;
+            margin-right:20px;
+        }
+        
+        .dropdown-content {
+            display:none;
+        }
+    
+        .show {
+            display:flex;
+            flex-direction:column;
+        }
+    
+        #menu {
+            display:flex;
+            flex-direction:column;
+            font-size:11px;
+            margin-top:7px;
+        }
+    
+        #menu a {
+            text-decoration:none;
+            font-weight:bold;
+            color:white;
+            margin-top:10px;
+            transition: transform 0.2s ease;
+        }
+    
+        #menu a:active {
+            transform: scale(0.8);
+        }
+    
+        #Pacu {
+            color:white;
+            font-size:20px;
+            font-weight: bold;
+            display:flex;
+            justify-content:center;
+        }
+    
+        #Desde {
+            color:white;
+            font-size:12px;
+            display:flex;
+            justify-content:center;
+            
+        }
+    
+        .sectitle {
+            display:flex;
+            justify-content:center;
+            font-weight:bold;
+            font-size:20px;
+            margin-bottom:30px;
+        }
+    
+        .sectitlew {
+            display:flex;
+            justify-content:center;
+            font-weight:bold;
+            font-size:20px;
+            margin-bottom:30px;
+            color:white;
+        }
+    

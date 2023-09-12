@@ -6,28 +6,45 @@
         <title>La Cobra</title>
         <link rel="icon" href="img/logo-cobra.png">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="loader"></div>
-        <div id="topbar">
-            <div id="centrar"> 
-                <a href="index.html" id="title">La Cobra</a>
-                <div id="menu">
-                    <button class="dropdown-button">Menú</button>
-                    <div class="dropdown-content">
-                        <a href="#inicio">Inicio</a>
-                        <a href="#noticias">Notícias</a>
-                        <a href="#integrantes">Integrantes</a>
-                        <a href="#trofeos">Trofeos</a>
-                        <a href="#fotos">Galería</a>
-                        <a href="#contacto">Contacto</a>
-                    </div>
+        <header class="hero">
+            <nav class="nav container" id="nav">
+                <div class="center">
+                    <h2 class="nav_logo">La Cobra.</h2>
+                    <ul class="nav_links">
+                        <li class="nav_item">
+                            <a href="#inicio" class="nav_link">Inicio</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#noticias" class="nav_link">Notícias</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#integrantes" class="nav_link">Integrantes</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#trofeos" class="nav_link">Trofeos</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#fotos" class="nav_link">Galería</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#contactos" class="nav_link">Contactos</a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-            <h2 id="Pacu">Obon Pa Cutio</h2>
-            <h2 id="Desde">Desde 2014</h2>
-            <h2>.</h2>
-        </div>
+                <a href="#nav" class="nav_hamburguer">
+                    <img src="img/menuw.svg" class="nav_icon">
+                </a>
+                <a href="#" class="nav_close">
+                    <img src="img/close.svg" class="nav_icon">
+                </a>
+            </nav>
+        </header>
         <div id="inicio" class="section">
             <h2 class="sectitle">Inicio</h2>
             <div>
@@ -318,7 +335,7 @@
                         <p>Pol Hermosilla</p>
                     </div>
                 </div>
-                <img src="img/giphy.gif" id="comming"/>
+                <img src="img/comming.gif" id="comming"/>
             </div>
         </div>
         <div id="fotos" class="section">
