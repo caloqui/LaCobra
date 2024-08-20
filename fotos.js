@@ -1,16 +1,18 @@
-const dropdownButtonfot = document.querySelector(".dropdown-buttonfot");
-const dropdownContentfot = document.querySelector(".dropdown-contentfot");
+function toggleAnimation() {
+  const hiddenPhotos = document.querySelectorAll('.dropdown-contentfot');
+  const button = document.querySelector('.dropdown-buttonfot');
 
-let fotosAbierto = false;
+  hiddenPhotos.forEach(photo => {
+      if (photo.classList.contains('showfot')) {
+          photo.classList.remove('showfot');
+      } else {
+          photo.classList.add('showfot');
+      }
+  });
 
-dropdownButtonfot.addEventListener("click", function () {
-  if (fotosAbierto) {
-    dropdownContentfot.classList.remove("showfot");
-    dropdownButtonfot.textContent = "Mostrar más";
+  if (button.innerText === "Mostrar más") {
+      button.innerText = "Mostrar menos";
+  } else {
+      button.innerText = "Mostrar más";
   }
-  else {
-    dropdownContentfot.classList.add("showfot");
-    dropdownButtonfot.textContent = "Mostrar menos";
-  }
-  fotosAbierto = !fotosAbierto;
-});
+}
