@@ -466,13 +466,11 @@ body.loaded {
         background-image: 
         linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)),
         url('img/f1.jpg');
-        box-shadow: 0px 0px 50px 60px black;
         background-size:cover;
         background-position: center center;
         min-height:500px;
         height: 100vh;
         color: white;
-        margin-bottom:100px;
     }
 
     .center {
@@ -483,7 +481,7 @@ body.loaded {
     
     .nav_logo {
         margin-left:20px;
-        font-size:45px;
+        font-size:3rem;
     }
 
     .nav_links {
@@ -529,18 +527,19 @@ body.loaded {
 
     /*INICIO*/
     #inicio {
-        margin-bottom:150px;
+        padding-bottom:8vh;
+        padding-top:8vh;
         text-align:justify;
-        margin-left:90px;
-        margin-right:90px;
-        font-size:12px;
+        margin-left:7rem;
+        margin-right:7rem;
+        font-size:14px;
     }
 
     /*NOTÍCIAS*/
     #noticias {
-        margin-bottom:150px;
+        padding-bottom:8vh;
+        padding-top:8vh;
         background-color:black;
-        /*box-shadow: 0px 0px 50px 100px black;*/
     }
 
     .ntitle {
@@ -558,7 +557,7 @@ body.loaded {
         text-align:justify;
         margin-left:90px;
         margin-right:90px;
-        font-size:12px;
+        font-size:14px;
         color:white;
     }
 
@@ -572,10 +571,12 @@ body.loaded {
 
     /*INTEGRANTES*/
     #integrantes {
-        margin-bottom:150px;
+        padding-bottom:8vh;
+        padding-top:8vh;
     }
 
     .dropdown-butint {
+        justify-content: center;
         display:flex;
         margin: auto;
         margin-top: 4vh;
@@ -671,8 +672,8 @@ body.loaded {
     /*TROFEOS*/
     #trofeos {
         background-color:black;
-        box-shadow: 0px 0px 50px 100px black;
-        margin-bottom:150px;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
     }
 
     .table {
@@ -701,40 +702,56 @@ body.loaded {
     }
 
     .itemtxt {
-        font-size:10px;
+        font-size:14px;
         color:white;
     }
 
     .itempar {
-        font-size:8px;
+        font-size:10px;
+        align-items: center;
         color:white;
+        text-align: center;
     }
 
-    #comming {
-        width:50%;
-        height:auto;
-        margin-left:50px;
-    }
 
     /*FOTOS*/
     #fotos {
-        margin-bottom:150px;
+        padding-top:5vh;
+        padding-bottom:5vh;
+    }
+
+    .photo-gallery {
+        display: flex;
+        gap: 20px;
+        max-width: 1224px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .photo img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
     }
 
     .dropdown-buttonfot {
         display:flex;
-        align-items:center;
+        margin: auto;
+        margin-top: 4vh;
+        align-items: center;
         background-color:#4f9a15;
         color:white;
         border-radius:8px;
         font-size:15px;
         font-weight:bold;
         border: 0px solid transparent;
-        margin-bottom:15px;
-        margin-top:30px;
-        margin-left:345px;
-        transition: transform 0.2s ease;
-        animation: jumpAnimationf 0.5s ease infinite;
+        animation: jumpAnimation 0.5s ease infinite;
         animation-play-state: paused;
     }
 
@@ -756,38 +773,14 @@ body.loaded {
     }
 
     .showfot {
-        display:block;
-    }
-
-    .table3 {
-        display:grid;
-        grid-template-columns: repeat(5, 1fr);
-        gap:3px;
-    }
-
-    .table4 {
-        display:grid;
-        grid-template-columns: repeat(5, 1fr);
-        gap:3px;
-    }
-
-    .photo {
         display:flex;
-        align-items:center;
-        justify-content:center;
-        padding:8px;
-    }
-
-    .photo img {
-        max-width:100%;
-        max-height:100%;
     }
 
     /*CONTACTO*/
     #contacto {
         background-color:black;
-        box-shadow: 0px 0px 50px 100px black;
-        margin-bottom:50px;
+        padding-top:10vh;
+        padding-bottom:10vh;
     }
 
     form {
@@ -855,13 +848,11 @@ body.loaded {
         background-image: 
         linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)),
         url('img/f1.jpg');
-        box-shadow: 0px 0px 50px 60px black;
         background-size:cover;
         background-position: center center;
         min-height:500px;
         height: 120vh;
         color: white;
-        margin-bottom:100px;
     }
 
     .center {
@@ -920,18 +911,19 @@ body.loaded {
 
     /*INICIO*/
     #inicio {
-        margin-bottom:300px;
+        padding-top:7vh;
+        padding-bottom:7vh;
         text-align:justify;
-        margin-left:300px;
-        margin-right:300px;
+        margin-left:400px;
+        margin-right:400px;
         font-size:22px;
     }
 
     /*NOTÍCIAS*/
     #noticias {
-        margin-bottom:300px;
+        padding-top:7vh;
+        padding-bottom:7vh;
         background-color:black;
-        box-shadow: 0px 0px 50px 100px black;
     }
 
     .ntitle {
@@ -939,16 +931,16 @@ body.loaded {
         display:flex;
         justify-content:center;
         box-shadow:0px 5px 2px -5px #4f9a15;
-        margin-left:500px;
-        margin-right:500px;
+        margin-left:400px;
+        margin-right:400px;
         font-size:40px;
         font-weight:bold;
     }
 
     .not {
         text-align:justify;
-        margin-left:500px;
-        margin-right:500px;
+        margin-left:400px;
+        margin-right:400px;
         font-size:20px;
         color:white;
     }
@@ -963,10 +955,12 @@ body.loaded {
 
     /*INTEGRANTES*/
     #integrantes {
-        margin-bottom:300px;
+        padding-top:7vh;
+        padding-bottom:7vh;
     }
 
     .dropdown-butint {
+        justify-content: center;
         display:flex;
         text-align:center;
         background-color:#4f9a15;
@@ -975,8 +969,8 @@ body.loaded {
         font-size:22px;
         font-weight:bold;
         border: 0px solid transparent;
-        margin-bottom:50px;
-        margin-left:870px;
+        margin: auto;
+        margin-top: 7vh;
         transition: transform 0.2s ease;
         animation: jumpAnimation 0.5s ease infinite;
         animation-play-state: paused;
@@ -1060,8 +1054,8 @@ body.loaded {
     /*TROFEOS*/
     #trofeos {
         background-color:black;
-        box-shadow: 0px 0px 50px 100px black;
-        margin-bottom:300px;
+        padding-top: 7vh;
+        padding-bottom: 7vh;
     }
 
     .table {
@@ -1084,45 +1078,60 @@ body.loaded {
     }
 
     .itemtitle {
-        font-size:40px;
+        font-size:30px;
         color:white;
     }
 
     .itemtxt {
-        font-size:20px;
+        font-size:30px;
         color:white;
     }
 
     .itempar {
-        font-size:15px;
+        font-size:20px;
+        align-items: center;
         color:white;
-    }
-
-    #comming {
-        width:60%;
-        height:auto;
-        margin-left:100px;
+        text-align: center;
     }
 
     /*FOTOS*/
     #fotos {
-        margin-bottom:300px;
+        padding-top:7vh;
+        padding-bottom:7vh;
+    }
+
+    .photo-gallery {
+        display: flex;
+        gap: 20px;
+        max-width: 1224px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .photo img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
     }
 
     .dropdown-buttonfot {
         display:flex;
-        align-items:center;
+        margin: auto;
+        margin-top: 7vh;
+        align-items: center;
         background-color:#4f9a15;
         color:white;
         border-radius:8px;
         font-size:22px;
         font-weight:bold;
         border: 0px solid transparent;
-        margin-bottom:15px;
-        margin-top:50px;
-        margin-left:870px;
-        transition: transform 0.2s ease;
-        animation: jumpAnimationf 0.5s ease infinite;
+        animation: jumpAnimation 0.5s ease infinite;
         animation-play-state: paused;
     }
 
@@ -1144,38 +1153,14 @@ body.loaded {
     }
 
     .showfot {
-        display:block;
-    }
-
-    .table3 {
-        display:grid;
-        grid-template-columns: repeat(10, 1fr);
-        gap:10px;
-    }
-
-    .table4 {
-        display:grid;
-        grid-template-columns: repeat(10, 1fr);
-        gap:3px;
-    }
-
-    .photo {
         display:flex;
-        align-items:center;
-        justify-content:center;
-        padding:10px;
-    }
-
-    .photo img {
-        max-width:100%;
-        max-height:100%;
     }
 
     /*CONTACTO*/
     #contacto {
         background-color:black;
-        box-shadow: 0px 0px 50px 100px black;
-        margin-bottom:50px;
+        padding-top:7vh;
+        padding-bottom:7vh;
     }
 
     form {
